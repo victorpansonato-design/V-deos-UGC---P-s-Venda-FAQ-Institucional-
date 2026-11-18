@@ -1,0 +1,21 @@
+{
+  "versao": 1,
+  "producao": "faq-exemplo",
+  "rota": "avatar",
+  "etapa": "planejamento",
+  "roteiro_aprovado_sha256": null,
+  "perfil_homologado": null,
+  "heygen": {
+    "teto_creditos": null,
+    "estimativa_creditos": null,
+    "job_id": null,
+    "status": null,
+    "consumo_real": null
+  },
+  "entrega": {
+    "versao": null,
+    "status": "rascunho",
+    "aprovador": null,
+    "data": null
+  }
+}

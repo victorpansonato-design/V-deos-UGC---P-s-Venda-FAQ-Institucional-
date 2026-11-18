@@ -1,0 +1,26 @@
+{
+  "locale": "pt-BR",
+  "expansions": {
+    "app": "aplicativo",
+    "EAD": "educação a distância",
+    "AVA": "Ambiente Virtual de Aprendizagem",
+    "RA": "registro acadêmico",
+    "DP": "dependência",
+    "ADAP": "adaptação"
+  },
+  "listen_in_context": [
+    "UniAnchieta",
+    "Grupo Anchieta",
+    "Jundiaí",
+    "Lyceum",
+    "Brightspace",
+    "D2L",
+    "prática extensionista",
+    "Aluno Online",
+    "EAD",
+    "AVA",
+    "RA",
+    "DP",
+    "ADAP"
+  ]
+}

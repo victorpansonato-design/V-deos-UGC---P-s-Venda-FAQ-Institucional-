@@ -1,0 +1,27 @@
+# Material de produção, mídias e credenciais
+/inbox/
+/producoes/
+/acervo/
+/out/
+/cache/
+/vendor/
+.env
+.env.*
+CLAUDE.local.md
+.claude/settings.local.json
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.srt
+*.vtt
+__pycache__/
+.venv/
+node_modules/
+/motion/*/assets/fonts/
+.hyperframes/
+/motion/encerramento/assets/

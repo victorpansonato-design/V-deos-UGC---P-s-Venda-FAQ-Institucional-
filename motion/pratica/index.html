@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Prática extensionista · exemplo de composição</title>
+  <style>
+    @font-face {
+      font-family: Inter;
+      src: url("assets/fonts/inter.woff2") format("woff2");
+      font-weight: 100 900;
+      font-display: block;
+    }
+
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #0a203a; font-family: Inter, sans-serif; }
+    #pratica {
+      position: relative;
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+      background: radial-gradient(ellipse at 8% 18%, #124c7a 0%, #0a203a 62%);
+      color: #f5fbff;
+    }
+
+    .frame {
+      position: absolute;
+      inset: 0;
+      padding: 298px 128px 0 130px;
+    }
+
+    .composition { width: 100%; }
+    h1 {
+      max-width: 780px;
+      font-size: 80px;
+      font-weight: 720;
+      line-height: 1.06;
+      letter-spacing: -4px;
+      margin: 0 0 96px;
+    }
+
+    .symbol {
+      display: grid;
+      place-items: center;
+      width: 66px;
+      height: 66px;
+      border-radius: 50%;
+      background: #10558b;
+      color: #fff;
+      font-size: 41px;
+      font-weight: 560;
+    }
+
+    .item {
+      display: grid;
+      grid-template-columns: 66px 1fr;
+      align-items: center;
+      gap: 27px;
+      min-height: 180px;
+      padding: 26px 36px;
+      border-radius: 30px;
+    }
+    .origin { background: #f5f9ff; color: #123454; }
+    .destination { background: #d7ebfb; color: #123454; }
+    .label { font-size: 45px; font-weight: 720; letter-spacing: -1.7px; }
+    .description { margin-top: 10px; font-size: 35px; font-weight: 500; }
+    .bridge { width: 7px; height: 115px; margin-left: 68px; background: #73bafb; }
+  </style>
+</head>
+<body>
+  <main id="pratica" data-composition-id="pratica" data-start="0" data-no-timeline
+        data-duration="5.4" data-width="1080" data-height="1920" data-fps="30">
+    <article id="mapa-extensao" class="frame">
+      <div class="composition">
+        <h1>Prática<br>extensionista</h1>
+        <div class="item origin">
+          <span class="symbol" aria-hidden="true">+</span>
+          <div><div class="label">Na faculdade</div><div class="description">O que você aprende</div></div>
+        </div>
+        <div class="bridge" aria-hidden="true"></div>
+        <div class="item destination">
+          <span class="symbol" aria-hidden="true">↳</span>
+          <div><div class="label">Na comunidade</div><div class="description">O que vocês fazem juntos</div></div>
+        </div>
+      </div>
+    </article>
+  </main>
+  <script>
+    const ease = (progress) => 1 - Math.pow(1 - Math.max(0, Math.min(1, progress)), 3);
+    const origin = document.querySelector(".origin");
+    const destination = document.querySelector(".destination");
+    const bridge = document.querySelector(".bridge");
+
+    function reveal(element, time, start, duration, shift) {
+      const progress = ease((time - start) / duration);
+      element.style.opacity = progress;
+      element.style.transform = "translateY(" + ((1 - progress) * shift) + "px)";
+    }
+
+    function renderAt(time) {
+      reveal(origin, time, 0.38, 0.62, 24);
+      const link = ease((time - 1.42) / 0.7);
+      bridge.style.transformOrigin = "50% 0";
+      bridge.style.transform = "scaleY(" + link + ")";
+      reveal(destination, time, 1.92, 0.62, 26);
+    }
+
+    window.addEventListener("hf-seek", (event) => renderAt(event.detail.time));
+    renderAt(0);
+  </script>
+</body>
+</html>
