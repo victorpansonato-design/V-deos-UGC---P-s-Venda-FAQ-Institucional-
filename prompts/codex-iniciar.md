@@ -1,0 +1,7 @@
+Leia AGENTS.md e docs/recuperacao/estado.md. Continue o Estúdio CX do Grupo Anchieta pelo próximo marco registrado. Pule o planejamento já aprovado e confira os arquivos locais disponíveis.
+
+Comece pela amostra de rematrícula. Faça a próxima etapa executável da comparação de 8–12 segundos com mesma fala, mesma duração e revisão humana de voz e rosto. Convoque a mesa de direção de docs/recuperacao/mesa-de-direcao.md. Use a ata inicial para produzir A e B com mesma fala, duração e enquadramento. Registre o que o aluno entendeu. Use o auditor de vídeo para checar critérios objetivos. O plano das três pautas e as referências estão em docs/recuperacao/.
+
+Se os MP3 ou os vídeos brutos ainda faltarem, prepare e verifique a composição com os ativos que já existem. Abra os quadros e verifique a duração, o formato e a área segura. Depois me diga exatamente quais arquivos devo colocar em inbox/ e como nomear. Mantenha os arquivos privados no computador e orce qualquer geração que consuma créditos antes de enviar.
+
+Ao terminar, atualize o estado do projeto e responda com o resultado, o que ficou pendente e um próximo passo. Em paralelo, verifique o piloto em desktop/ no Windows e registre qualquer falha antes de distribuir.
