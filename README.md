@@ -1,49 +1,39 @@
-# Estúdio CX · Vídeos FAQ do Grupo Anchieta
+# Estúdio CX · UniAnchieta
 
-Base de produção para o **Claude Code no computador**. A equipe fornece a dúvida, a resposta validada e, quando houver, um vídeo original. O Claude Code prepara o roteiro, planeja a edição e usa as ferramentas locais para montar, revisar e exportar. O HeyGen entra quando o vídeo precisa de uma apresentadora virtual.
+Produção local de FAQs de até um minuto em português brasileiro para ingressantes e alunos do Grupo Anchieta. O fluxo começa com uma dúvida, uma resposta verificável e uma voz. Pode receber uma gravação do Marketing ou um apresentador já sincronizado no HeyGen ou no Higgsfield.
 
-## Para criar um vídeo
+**Comece aqui** · Abra esta pasta no **Codex** do computador e envie **“Leia AGENTS.md e continue pelo próximo passo em docs/recuperacao/estado.md.”** Para a primeira sessão, há um [prompt pronto para copiar](prompts/codex-iniciar.md). A pasta mantém o contexto quando muda a pessoa ou o computador. Os ativos privados ficam na máquina da equipe.
 
-1. Abra a aba **Code** do Claude Desktop e escolha a pasta deste repositório no computador.
-2. Copie uma das mensagens abaixo. Pode escrever com suas próprias palavras.
-3. O Claude devolve uma proposta com o que o aluno aprenderá, a duração estimada, as cenas e o que falta confirmar. Com a conta configurada e a produção autorizada, ele monta uma prévia local e prepara os arquivos de entrega.
-
-**Com apresentadora**
-
-> Crie um vídeo de até 45 segundos explicando o que é prática extensionista. É para quem acabou de entrar na graduação. Quero usar a apresentadora aprovada. Use a página institucional como fonte. Meu roteiro é: [cole aqui].
-
-**Com gravação real**
-
-> Edite o vídeo que deixei em inbox/. Preserve a voz e as informações da pessoa. É para alunos ingressantes. Quero legenda, cortes naturais e animações só onde ajudarem a entender. Aqui vai a fonte da orientação: [cole o link ou indique o arquivo interno].
-
-**Somente planejamento**
-
-> Planeje um vídeo de FAQ com o roteiro abaixo. Quero validar a resposta, o storyboard e a voz antes de gerar. [cole aqui]
-
-Se a interface não sugerir o comando, envie a mensagem normalmente. Os comandos **/video-faq**, **/editar-video-real**, **/calibrar-voz** e **/validar-video** também estão disponíveis nas versões do Claude Code que carregam as configurações da pasta.
-
-## Guias
-
-| Para quem | Abra |
+| O que você quer fazer | Abra |
 | --- | --- |
-| Gestora e operação | [Primeira configuração e uso diário](docs/01-operacao.md) |
-| Quem vai apresentar o projeto | [Proposta para a diretoria e piloto](docs/09-diretoria-e-plano.md) |
-| Quem aprova conteúdo | [Público brasileiro, prioridades e medição](docs/02-publico-e-conteudo.md) |
-| Quem configura a apresentadora | [Pesquisa HeyGen, modelos, catálogo e custos](docs/03-heygen.md) e [fonética e audição pt-BR](docs/04-voz-ptbr.md) |
-| Quem dirige a edição | [Direção de arte e análise dos anexos](docs/05-direcao-e-referencias.md) e [design sonoro e acervo](docs/06-acervo-e-som.md) |
-| Quem mantém a produção | [Arquitetura, stack e instalação](docs/07-pipeline-e-stack.md) e [qualidade e entrega](docs/08-qualidade.md) |
-| Primeiro vídeo | [Storyboard de prática extensionista](examples/pratica-extensionista.md) |
+| Saber exatamente o que está pronto e o que fazer hoje | [Estado do projeto](docs/recuperacao/estado.md) e [plano até a diretoria](docs/recuperacao/plano.md) |
+| Entender por que o primeiro vídeo foi recusado | [Diagnóstico com evidências](docs/recuperacao/diagnostico.md) |
+| Escolher entre as três amostras | [Roteiros e planos de corte](docs/recuperacao/amostras.md) |
+| Reunir direção, marketing e edição | [Mesa de direção com sete agentes](docs/recuperacao/mesa-de-direcao.md) |
+| Escolher como a edição acompanha a explicação | [Catálogo de identidades](docs/recuperacao/identidades.md) e [pesquisa de motion](docs/recuperacao/pesquisa-motion.md) |
+| Produzir o bruto para edição | [Prompt mestre HeyGen](prompts/heygen.md) · [Prompt mestre Higgsfield](prompts/higgsfield.md) |
+| Comparar a voz gravada e a voz sintética | [Teste de elenco e voz](docs/recuperacao/pesquisa-voz.md) e [pronúncia pt-BR](docs/04-voz-ptbr.md) · [voz local e inventário da conta](docs/recuperacao/voz-local.md) |
+| Operar ou construir o piloto Windows | [Versão local e instruções](desktop/README.md) e [pesquisa de arquitetura](docs/recuperacao/studio-windows.md) |
+| Escolher imagens, música e efeitos com licença | [Acervo e som](docs/06-acervo-e-som.md) |
+| Entender o aluno e medir se a dúvida foi resolvida | [Público e indicadores](docs/02-publico-e-conteudo.md) |
 
-O repositório público contém guias, perfis iniciais e código. Configure um acervo interno para originais do Marketing, consentimentos, roteiros internos, vozes da conta e arquivos entregues. O fluxo de produção gera arquivos para revisão local. Publicação aos alunos é uma etapa do CX.
+### Primeira sessão na máquina da equipe
 
-## O que já roda localmente
+1. No GitHub Desktop, clone este projeto ou, se já estiver clonado, use **Fetch origin** e **Pull origin** quando houver mudanças. No Codex, abra a pasta que contém este README. O prompt inicial está acima.
+2. Crie a pasta local `inbox/`. Coloque nela as duas vinhetas nos nomes `vinheta-vertical.mp4` e `vinheta-horizontal.mp4`. Adicione a gravação real do apresentador ou o bruto exportado do provedor. Guarde o áudio **exato** que animou a boca, quando houver. Veja a lista de insumos no plano. Para clonar voz, use só a de uma pessoa que tenha autorizado o uso definido.
+3. Comece com uma frase e um take de 8–12 segundos em celular. Escute a fala sem imagem e depois assista à boca com o mesmo áudio. Só replique a edição completa quando esses dois testes passarem. A edição de um vídeo real funciona sem conexão com o HeyGen.
+4. Se quiser usar o conector oficial via Codex CLI, no terminal rode `codex mcp add heygen --url https://mcp.heygen.com/mcp/v1/`, depois `codex mcp login heygen` quando a sessão pedir autorização e confira a lista com `codex mcp list`. Conectar a conta e mandar gerar são ações independentes. Confira o custo na conta antes de gerar. [MCP no Codex](https://developers.openai.com/codex/mcp/) · [MCP do HeyGen](https://www.heygen.com/model-context-protocol)
+
+### Motor de edição e revisão
+
+O motor CLI usa Python 3, FFmpeg e FFprobe. Para a composição opcional com HyperFrames, use Node e a versão fixada pelo lockfile. O corpo também pode ser montado em Kdenlive e voltar como clipe único. O master termina com o arquivo **integral** da vinheta correspondente à orientação.
 
 ```bash
 python scripts/studio.py doctor
 python scripts/studio.py roteiro examples/roteiro-pratica.txt
-python scripts/studio.py inspecionar caminho/do/bruto.mp4
-python scripts/studio.py montar caminho/do/plano.json pasta/da-producao
-python scripts/studio.py validar pasta/da-producao/entrega.mp4
+python scripts/studio.py inspecionar inbox/apresentador.mp4
+python scripts/studio.py montar producoes/rematricula/plano.json producoes/rematricula/revisao-01 --progresso
+python scripts/studio.py validar producoes/rematricula/revisao-01/entrega.mp4 --formato vertical
 ```
 
-No Windows, use `py -3` se o comando `python` não estiver no PATH. O montador recebe cortes, enquadramentos, áudio final quando houver e legenda revisada. A direção, o storyboard, o plano de edição, a composição de motion e a escuta em português ficam no fluxo do Claude Code. A geração HeyGen depende da autenticação e dos recursos da conta do Grupo. O trabalho foi estruturado para permitir edição de vídeo real com custo HeyGen zero.
+Use `py -3` no Windows se necessário. Os antigos [comandos para Claude Code](docs/01-operacao.md) seguem disponíveis. O Codex usa [AGENTS.md](AGENTS.md). Gerar um MP4 ou passar na verificação técnica ainda deixa a decisão de conteúdo, interpretação e marca com o CX.

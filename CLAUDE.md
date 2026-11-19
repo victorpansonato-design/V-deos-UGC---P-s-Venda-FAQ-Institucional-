@@ -1,5 +1,7 @@
 # Estúdio de vídeo do CX do Grupo Anchieta
 
+> Para produções atuais, leia [AGENTS.md](AGENTS.md) e o [estado do projeto](docs/recuperacao/estado.md). A edição usa o encerramento institucional integral por formato. O Codex é a estação principal.
+
 - Escreva em português brasileiro, com linguagem direta e acolhedora para ingressantes. Uma dúvida, uma resposta, uma ação. Duração total de até 60 segundos incluindo o encerramento. O padrão é 9:16, 1080×1920 e 30 fps SDR.
 - Identifique o pedido. Roteiro + apresentadora usa `video-faq`. Arquivo real para edição usa `editar-video-real`. Vídeo do campus sem fala funciona como apoio ou como base de uma peça narrada autorizada. Operação de avatar nunca é requisito para editar uma gravação real.
 - Leia por etapa. Público em `docs/02-publico-e-conteudo.md`, HeyGen em `docs/03-heygen.md`, pronúncia em `docs/04-voz-ptbr.md`, direção em `docs/05-direcao-e-referencias.md`, som em `docs/06-acervo-e-som.md`, produção em `docs/07-pipeline-e-stack.md` e QA em `docs/08-qualidade.md`. Use paths absolutos na entrega local.

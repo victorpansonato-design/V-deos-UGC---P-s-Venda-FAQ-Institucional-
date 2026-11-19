@@ -21,7 +21,26 @@ CLAUDE.local.md
 *.vtt
 __pycache__/
 .venv/
-node_modules/
+node_modules
 /motion/*/assets/fonts/
 .hyperframes/
 /motion/encerramento/assets/
+
+# Produção privada e artefatos de build
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.gguf
+*.exe
+*.pfx
+*.p12
+*.pem
+*.key
+*.log
+/desktop/build/
+/desktop/bin/
+/desktop/obj/
+
+/desktop/dist/

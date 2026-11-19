@@ -8,8 +8,8 @@ O CX quer reduzir a distância entre **a dúvida do ingressante** e **o primeiro
 | --- | --- |
 | O vídeo ajuda? | Alunos encontram a resposta e indicam o próximo passo no teste. A métrica principal é compreensão/capacidade de agir. |
 | A voz soa bem? | Comparação cega de vozes brasileiras com aprovação nos termos críticos, consistência e sincronismo. |
-| Tem padrão de Marca? | Motion coerente com o manual do Grupo, reuso de acervo do Marketing, tela legível, vinheta de 1–2 s após o CTA. |
-| O CX consegue operar? | Uma pessoa da equipe abre a pasta e produz usando o guia, o Claude Code e uma confirmação de conteúdo quando necessária. |
+| Tem padrão de Marca? | Motion coerente com o manual do Grupo, reuso de acervo do Marketing, tela legível, vinheta oficial integral por orientação após o CTA. |
+| O CX consegue operar? | Uma pessoa da equipe abre a pasta e produz usando o guia, o Codex e uma confirmação de conteúdo quando necessária. |
 | Vale escalar? | Medir duração gasta por etapa, créditos efetivos, necessidade de refação, distribuição e contatos de suporte por tema. Definir valor econômico com baseline. |
 
 ## Plano de implantação

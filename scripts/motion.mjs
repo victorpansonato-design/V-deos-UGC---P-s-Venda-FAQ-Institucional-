@@ -5,17 +5,30 @@ import { spawnSync } from "node:child_process";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const [command, scene = "pratica", asset] = process.argv.slice(2);
-if (!["check", "preview", "render"].includes(command) || !["pratica", "encerramento"].includes(scene)) {
-  throw new Error("Escolha check, preview ou render e a cena pratica ou encerramento.");
+if (!["check", "preview", "render"].includes(command) || !["pratica", "encerramento", "editorial"].includes(scene)) {
+  throw new Error("Escolha check, preview ou render e a cena pratica, editorial ou encerramento.");
 }
 
 const composition = join(root, "motion", scene);
 const assets = join(composition, "assets");
-if (scene === "pratica") {
+if (scene !== "encerramento") {
+  if (scene === "editorial") {
+    if (extname(asset ?? "").toLowerCase() !== ".mp4") {
+      throw new Error("Informe o caminho do MP4 aprovado com pelo menos 9 s de imagem.");
+    }
+    const probe = spawnSync("ffprobe", ["-v", "error", "-select_streams", "v:0",
+      "-show_entries", "stream=duration", "-of", "csv=p=0", resolve(asset)], { encoding: "utf8" });
+    if (probe.error) throw new Error("Instale o FFmpeg com ffprobe no PATH para validar a mídia.");
+    const seconds = Number(probe.stdout.trim());
+    if (probe.status !== 0 || !Number.isFinite(seconds) || seconds < 9) {
+      throw new Error("O estudo editorial precisa de pelo menos 9 segundos de vídeo decodificável.");
+    }
+  }
   const fontDirectory = join(assets, "fonts");
   mkdirSync(fontDirectory, { recursive: true });
   copyFileSync(join(root, "node_modules", "@fontsource-variable", "inter", "files",
     "inter-latin-wght-normal.woff2"), join(fontDirectory, "inter.woff2"));
+  if (scene === "editorial") copyFileSync(resolve(asset), join(assets, "campus.mp4"));
 } else {
   const suffix = extname(asset ?? "").toLowerCase();
   if (![".svg", ".png"].includes(suffix)) {

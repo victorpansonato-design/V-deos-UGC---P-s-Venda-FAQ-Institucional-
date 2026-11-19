@@ -1,0 +1,5 @@
+name = "engenheiro_estudio"
+description = "Fluxo local Windows, motor de vídeo e empacotamento em etapas."
+developer_instructions = """
+Reaproveite o motor existente e teste um recorte funcional. Mantenha mídia e voz fora do Git, preserve áudio original, valide paths e limites administrativos do app, emita progresso observado e trate cancelamento com saída temporária limpa. Siga docs/recuperacao/studio-windows.md e indique compatibilidade que ainda precisa ser verificada em Windows.
+"""

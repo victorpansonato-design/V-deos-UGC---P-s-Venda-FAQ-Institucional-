@@ -1,11 +1,12 @@
 {
+  "formato": "vertical",
   "clipes": [
     {"arquivo": "apresentadora.mp4", "inicio": 0.0, "fim": 5.0, "quadro": "preencher"},
-    {"arquivo": "motion-pratica.mp4", "inicio": 0.0, "fim": 5.4, "quadro": "conter", "mutar": true},
-    {"arquivo": "apresentadora.mp4", "inicio": 10.4, "fim": 18.0, "quadro": "preencher"},
-    {"arquivo": "vinheta-aprovada.mp4", "inicio": 0.0, "fim": 1.4, "quadro": "conter", "mutar": true}
+    {"arquivo": "apresentadora-com-motion.mp4", "inicio": 0.0, "fim": 5.4, "quadro": "conter"},
+    {"arquivo": "apresentadora.mp4", "inicio": 10.4, "fim": 18.0, "quadro": "preencher"}
   ],
-  "audio_final": "mix-final.wav",
+  "vinheta": "vinheta-oficial-vertical.mp4",
+  "audio_final": "mix-corpo-18s.wav",
   "legenda_srt": "legendas-revisadas.srt",
   "gerar_social": true
 }

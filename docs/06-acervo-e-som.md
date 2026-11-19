@@ -27,7 +27,7 @@ Trilhas separadas: **diálogo**, **ambiente**, **música** opcional e **SFX**. P
 | Um item realmente é selecionado | Foley seco de toque em vidro ou papel, sem timbre de alerta | Ataque no frame do contato. |
 | Associação curso → comunidade | Textura orgânica, breve, fora da sílaba crítica | Apoiar a junção, preservar o sentido sem som. |
 | Confirmação visível documentada | Clique macio e cauda curta | Nada que pareça uma notificação do celular. |
-| Encerramento | Um toque de marca original aprovado, ou cauda de ambiente | Logo já legível, som curto, fade limpo. |
+| Encerramento | Vinheta institucional integral com áudio original | Preserve a passagem e confira o volume percebido no celular. |
 
 Cue sheet por ID do evento, tempo em segundos ou frames, ID de ativo, ataque/pico/final, ganho inicial, offset e função. Prefira arquivos WAV e mescle a 48 kHz. Faça EQ/corte de graves das camadas que mascaram a voz quando necessário, duck manual nos trechos críticos e panorama compatível com mono. Comece com a cama sensivelmente abaixo do diálogo e compare A/B com a cena em silêncio antes de manter o efeito. Timing é verificado na mixagem final e no MP4 exportado.
 

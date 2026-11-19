@@ -51,11 +51,11 @@ Curadoria do MD anexado: reaproveitar teste de relevância, prova, clareza, CTA 
 
 ### Vinheta local
 
-Para a assinatura final em 1,4 s, use o SVG institucional aprovado ou PNG transparente equivalente. O arquivo fica no acervo local e é copiado para uma pasta ignorada pelo Git. Fundo claro, marca sem deformação e primeiro frame com a marca visível. Confira a variante da assinatura com Marketing. Para compor sobre fundo escuro, use arte com contraste aprovado. A vinheta é silenciosa, pronta para receber o toque opcional do Grupo.
+Para reproduzir o estudo histórico de assinatura em 1,4 s, use o SVG institucional aprovado ou PNG transparente equivalente. O arquivo fica no acervo local e é copiado para uma pasta ignorada pelo Git. Fundo claro, marca sem deformação e primeiro frame com a marca visível. Confira a variante da assinatura com Marketing. Para compor sobre fundo escuro, use arte com contraste aprovado. A vinheta é silenciosa, pronta para receber o toque opcional do Grupo.
 
 ```bash
 npm run motion:check -- encerramento acervo/marca/logo-grupo.svg
 npm run motion:render -- encerramento acervo/marca/logo-grupo.svg
 ```
 
-A saída `motion-encerramento.mp4` entra como último clipe da montagem. O CTA aparece antes dela.
+Esta saída preserva o teste histórico. Na produção atual o CTA antecede o arquivo oficial integral na chave `vinheta`, com o som de origem.
