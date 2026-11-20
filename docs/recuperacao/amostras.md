@@ -34,7 +34,7 @@ Para a comparação inicial de abertura, use o recorte de 11 s da [ata](ata-rema
 | --- | --- | --- |
 | 0–6 s | Rosto à direita. À esquerda, duas folhas compartilham a mesma borda de “Semestre atual”. | “Dois projetos?” Ênfase ascendente na pergunta e repouso em “diferentes”. |
 | 6–15 s | Cada folha recebe um padrão e um rótulo, “Modelo A” e “Modelo B” como exemplos. Manter ambas no mesmo quadro. | “Mesmo semestre · modelos diferentes”. Uma folha roçando sobre outra, somente na entrada da segunda. |
-| 15–21 s | Corte de ~0,8 s para campus real na direção da virada. Voltar ao rosto em plano médio; a borda passa para “Semestre seguinte”, e a folha A reaparece. | “O modelo pode se repetir”. Pausa curta antes de “E as horas?”. |
+| 15–21 s | Um plano de campus real de cerca de 1,83 s na direção da virada, com espaço para respirar. Voltar ao rosto em plano médio; a borda passa para “Semestre seguinte”, e a folha A reaparece. | “O modelo pode se repetir”. Pausa curta antes de “E as horas?”. |
 | 21–32 s | Linha temporal com início, semestres e fim do curso, sem percentuais ou horas fictícias. O rosto ocupa ao menos um terço do quadro. | “Distribua seus projetos”. Guardar a trilha na última frase. |
 | 32–36,1 s | Vinheta horizontal completa. | Som original da vinheta. |
 

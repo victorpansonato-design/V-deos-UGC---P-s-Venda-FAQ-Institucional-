@@ -10,7 +10,7 @@ Produção local de FAQs de até um minuto em português brasileiro para ingress
 | Entender por que o primeiro vídeo foi recusado | [Diagnóstico com evidências](docs/recuperacao/diagnostico.md) |
 | Escolher entre as três amostras | [Roteiros e planos de corte](docs/recuperacao/amostras.md) |
 | Reunir direção, marketing e edição | [Mesa de direção com sete agentes](docs/recuperacao/mesa-de-direcao.md) |
-| Escolher como a edição acompanha a explicação | [Catálogo de identidades](docs/recuperacao/identidades.md) e [pesquisa de motion](docs/recuperacao/pesquisa-motion.md) |
+| Escolher como a edição acompanha a explicação | [Direção ilustrada](docs/recuperacao/direcao-ilustrada.md) e [pesquisa de motion](docs/recuperacao/pesquisa-motion.md) |
 | Produzir o bruto para edição | [Prompt mestre HeyGen](prompts/heygen.md) · [Prompt mestre Higgsfield](prompts/higgsfield.md) |
 | Comparar a voz gravada e a voz sintética | [Teste de elenco e voz](docs/recuperacao/pesquisa-voz.md) e [pronúncia pt-BR](docs/04-voz-ptbr.md) · [voz local e inventário da conta](docs/recuperacao/voz-local.md) |
 | Operar ou construir o piloto Windows | [Versão local e instruções](desktop/README.md) e [pesquisa de arquitetura](docs/recuperacao/studio-windows.md) |

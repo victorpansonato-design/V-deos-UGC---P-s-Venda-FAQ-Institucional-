@@ -1,11 +1,11 @@
 # Estado do Estúdio CX
 
-Atualizado em **19/11/2026**. Alvo: três amostras para a diretoria, com revisão técnica e de conteúdo antes do envio aos alunos.
+Atualizado em **19/11/2026**, após a revisão de estilo pelo CX. Alvo: três amostras para a diretoria, com revisão técnica e de conteúdo antes do envio aos alunos.
 
 | Frente | Estado verificado |
 | --- | --- |
 | Diagnóstico | Vídeo recebido inspecionado por quadros e métricas. A equipe relatou fala robótica e rosto pouco natural. A causa exata da configuração do provedor requer a sessão ou o bruto. A pasta da skill, os dois tutoriais enviados, o catálogo e o MP4 de Rory, o Reel e os takes institucionais estão mapeados. |
-| Direção | Três roteiros com plano por tempo e estudos visualizados de rematrícula, extensão e AVA. Artboards, narrativas e transições esperam aplicação a um rosto e voz aprovados. |
+| Direção | Três roteiros com plano por tempo. O CX reprovou a estética do primeiro ZIP e considerou o plano de campus rápido. O novo estudo ensaia objetos ilustrados que mudam com a fala, com take real contínuo de 1,83 s. [Direção atual](direcao-ilustrada.md) |
 | Mesa de marketing | Sete agentes no Codex. Sete pareceres independentes já definiram a comparação visual de rematrícula e corrigiram a interpretação do cartão. [Ata inicial](ata-rematricula.md) |
 | Saída local | Motor FFmpeg exportou exemplos com as vinhetas corretas e completas nos dois formatos. Teste vertical de 6,50 s a −16,2 LUFS e horizontal de 7,10 s a −16,3 LUFS. Configuração de voz, enquadramento e legenda precisa de revisão no material final. |
 | Voz | Script de preparação pt-BR, critério de escuta, catálogo HeyGen por conta e fluxo de clonagem local. Dois MP3 de referência, registro de autorização e escuta em pt-BR pendentes. Os roteiros e as versões destinadas ao TTS são arquivos separados. |

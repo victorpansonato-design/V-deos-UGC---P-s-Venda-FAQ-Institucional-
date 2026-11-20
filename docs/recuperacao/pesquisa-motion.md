@@ -55,12 +55,14 @@ Hipótese de processo a verificar: o projeto anterior oferecia verificações de
 
 ## Sistema de identidades iniciais
 
+As explorações abaixo ficam como histórico. Para novas peças, use a [direção ilustrada](direcao-ilustrada.md).
+
 As três identidades são hipóteses. O primeiro storyboard tem de mostrar uma still de cada opção com a mesma fala e o mesmo elenco. Comparar em tela de celular e sem áudio.
 
 | Identidade | Use em | Regras visuais e de tempo |
 | --- | --- | --- |
 | **Azul em Camadas** | Fluxo com dois ou três passos e peça de apresentação à diretoria | Objeto central arredondado, borda discreta e leve profundidade. Fundo azul profundo com luz concentrada. O objeto muda um estado por fala. Use tela dividida 56/44 ou 60/40 como ponto de partida. Avatar em plano médio inteiro ou lateral, sem recortá-lo nos olhos/boca. Legendas fixas fora da região de ação. |
-| **Campus em Movimento** | Benefícios, reconhecimento institucional ou mudança de blocos | Close humano e nenhum cenário institucional inventado. Corte de campus real só para abrir, conectar blocos ou encerrar contexto, em tomadas breves de cerca de 0,7–1,2 s como ponto de partida. Match cut por massa, direção ou luz. Na sequência o avatar volta. Transição por movimento compartilhado ou corte motivado, com foley discreto em até dois eventos narrativos de 30–45 s. |
+| **Campus em Movimento** | Benefícios, reconhecimento institucional ou mudança de blocos | Close humano e nenhum cenário institucional inventado. Corte de campus real só para abrir, conectar blocos ou encerrar contexto, em um único take de 1,83 s como novo ponto de partida, ajustável conforme a fala. Match cut por massa, direção ou luz. Na sequência o avatar volta. Transição por movimento compartilhado ou corte motivado, com foley discreto em até dois eventos narrativos de 30–45 s. |
 | **Guia na Tela** | Tutorial do app ou orientação que exige mostrar onde tocar | Demonstração real higienizada ou mock aprovado. Cada ação toca um ponto preciso na interface. Avatar compacto de lado ou abaixo da captura, sem cobrir a área tocada nem legendas. Marcador de toque legível, texto curto e pausa suficiente para ler. Campus entra só quando houver função narrativa. |
 
 Para o estúdio, estudar da Apple a hierarquia, o movimento com função e a preferência por movimento reduzido. Emprestar da Vercel o sistema de hierarquia, status visível e espaçamento. Usar do Higgsfield a organização da tarefa por mídia, parâmetros e preview. Aplicar esses princípios com composição original, marca e tipografia licenciada do Anchieta. [Apple HIG Motion](https://developer.apple.com/design/human-interface-guidelines/motion) · [Geist por Vercel](https://vercel.com/geist/introduction) · [Cinema Studio](https://higgsfield.ai/cinematic-video-generator)

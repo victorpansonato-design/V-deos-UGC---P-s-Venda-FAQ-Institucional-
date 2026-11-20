@@ -1,6 +1,6 @@
 # Ata inicial · rematrícula
 
-Sete pareceres independentes na primeira rodada de direção. A mesa avaliou a arte existente e escolheu a variável da próxima comparação: a forma como a segunda etapa entra. Os dois trechos finais dependem da mesma tomada falada e do teste no celular.
+Sete pareceres independentes na primeira rodada de direção. A composição do primeiro ZIP foi reprovada e os próximos testes usam a [direção ilustrada](direcao-ilustrada.md). A mesa avaliou a arte existente e escolheu a variável da próxima comparação: a forma como a segunda etapa entra. Os dois trechos finais dependem da mesma tomada falada e do teste no celular.
 
 > Pagou a mensalidade de janeiro? Confira se você já assinou o contrato no app do Grupo Anchieta. A rematrícula precisa dos dois.
 
@@ -18,7 +18,7 @@ Sete pareceres independentes na primeira rodada de direção. A mesa avaliou a a
 | Lúcia | Trocar o check por verbos e numeração. Uma ficha de orientação pode parecer um comprovante. |
 | Rafael | Testar a expansão da ficha em uma única palavra, com o rosto mantido no quadro. |
 | Dieter | Tirar a manchete repetida. Distribuir fala, ficha e legenda em faixas próprias. Conferir a 360 px de largura. |
-| Walter | Reservar a passagem de campus para a pausa, cerca de 0,75 s no estudo. O efeito de papel só entra em comparação de som posterior. |
+| Walter | Reservar a passagem de campus para a pausa. O estudo antigo usava 0,75 s. O novo ensaio tem 1,83 s. O efeito de papel só entra em comparação de som posterior. |
 | Rory | Fixar quatro quadros de inspeção na expansão. Antes, durante, depois e sustentação. |
 | Camila | Começar olhando na lente e preservar uma pausa real. Testar também “Já pagou janeiro?” em outra rodada, se o gancho soar longo. |
 | Pedro | Medir transferência com o aluno que já pagou e precisa saber onde confere o contrato. Em outro contexto, pedir que localize uma aula. |

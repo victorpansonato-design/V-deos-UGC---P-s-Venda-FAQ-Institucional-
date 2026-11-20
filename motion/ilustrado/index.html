@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Rematrícula · estudo ilustrado</title>
+<style>
+  @font-face {
+    font-family: Inter;
+    src: url("assets/fonts/inter.woff2") format("woff2");
+    font-weight: 100 900;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  main {
+    position: relative;
+    width: 1080px;
+    height: 1920px;
+    overflow: hidden;
+    color: #102749;
+    background: #f4eddd;
+    font-family: Inter, system-ui, sans-serif;
+  }
+  .paper {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 18% 15%, #fffaec, transparent 65%),
+      repeating-linear-gradient(0deg, transparent 0 47px, #cec2ab40 47px 48px);
+  }
+  .topic, .story {
+    position: absolute;
+    left: 132px;
+    right: 202px;
+  }
+  .topic {
+    top: 302px;
+    font-size: 38px;
+    font-weight: 700;
+    border-bottom: 2px solid #10274940;
+    padding-bottom: 24px;
+  }
+  .story { top: 408px; }
+  .story h1 {
+    margin: 0;
+    max-width: 900px;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: .99;
+    letter-spacing: -6px;
+    white-space: pre-line;
+  }
+  .scene-caption {
+    position: absolute;
+    left: 132px;
+    top: 682px;
+    margin: 0;
+    font-weight: 650;
+    font-size: 39px;
+    color: #18325a;
+  }
+  .ink {
+    position: absolute;
+    inset: 0;
+    width: 1080px;
+    height: 1920px;
+  }
+  .cinema {
+    position: absolute;
+    left: 54px;
+    top: 674px;
+    width: 972px;
+    height: 547px;
+    overflow: hidden;
+    background: #172332;
+  }
+  .cinema video { width: 100%; height: 100%; object-fit: cover; }
+  #campusScene { position: absolute; inset: 0; }
+  #campusScene .scene-caption { top: 600px; }
+</style>
+</head>
+<body>
+<main data-composition-id="ilustrado" id="ilustrado" data-start="0" data-duration="12" data-width="1080" data-height="1920" data-fps="30" data-no-timeline>
+  <div class="paper"></div>
+  <div id="campusScene">
+    <div class="cinema">
+      <video id="campus" class="clip" data-start="4.5" data-duration="1.833333333"
+        data-track-index="0" data-has-audio="false" src="assets/campus.mp4" muted playsinline></video>
+    </div>
+    <p class="scene-caption">Campus Jundiaí</p>
+  </div>
+  <div class="topic">Rematrícula</div>
+  <div class="story" id="story"><h1 id="heading">Pague a
+mensalidade
+de janeiro.</h1></div>
+  <svg class="ink" viewBox="0 0 1080 1920" aria-hidden="true" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g id="calendar">
+      <path d="M281 850 L719 823 Q752 823 753 861 L775 1256 Q775 1289 734 1291 L292 1313 Q259 1315 257 1277 L242 898 Q239 863 281 850Z" fill="#bca481" opacity=".4"/>
+      <path d="M312 772 L780 826 Q822 831 816 878 L767 1286 Q765 1317 730 1313 L263 1262 Q227 1257 229 1224 L279 811 Q282 772 312 772Z" fill="#e8bd6b" stroke="#142a4b" stroke-width="5"/>
+      <path d="M251 812 L768 799 Q800 800 799 835 L807 1188 Q803 1226 766 1228 L263 1246 Q230 1246 229 1214 L218 847 Q219 813 251 812Z" fill="#fff9e9" stroke="#142a4b" stroke-width="7"/>
+      <path d="M221 903 L800 890 L799 835 Q800 800 768 799 L251 812 Q219 813 218 847 Z" fill="#254775" stroke="#142a4b" stroke-width="6"/>
+      <path d="M351 846 L348 775 M666 839 L664 768" stroke="#122543" stroke-width="21"/>
+      <path d="M350 832 L348 776 M665 829 L664 769" stroke="#efd6a9" stroke-width="8"/>
+      <path d="M327 963H690 M329 1031H697 M330 1101H697 M375 952V1120 M452 950V1122 M530 950V1124 M608 950V1128 M684 950V1125" stroke="#244568" stroke-width="4" opacity=".5"/>
+      <path id="circle" pathLength="1" d="M404 1002 C466 947 656 956 693 985 C730 1016 651 1053 539 1048 C421 1047 374 1025 404 1002Z" stroke="#b27119" stroke-width="10"/>
+      <path d="M839 870 Q883 847 899 797 M867 904 L918 900 M207 1171 L164 1198" stroke="#2b537d" stroke-width="6"/>
+    </g>
+    <g id="contract">
+      <path d="M273 810 L761 800 L787 1245 Q786 1279 747 1285 L299 1307 Q261 1308 259 1274 L247 845 Q248 817 273 810Z" fill="#bca481" opacity=".4"/>
+      <path d="M235 836 L720 778 L825 872 L864 1261 L303 1324 Q277 1326 273 1294 L219 865 Q214 844 235 836Z" fill="#e7bc6e" stroke="#142a4b" stroke-width="5"/>
+      <path d="M256 781 L697 772 L798 871 L813 1268 Q813 1292 783 1296 L294 1314 Q263 1315 263 1286 L238 809 Q237 783 256 781Z" fill="#fff9e9" stroke="#142a4b" stroke-width="7"/>
+      <path d="M697 772 L699 867 L798 871" stroke="#142a4b" stroke-width="6" fill="#f3d99f"/>
+      <path d="M315 893 L492 890 M320 945 L698 941 M323 990 L718 984 M327 1036 L674 1031 M336 1228 L722 1222" stroke="#2b537d" stroke-width="5" opacity=".65"/>
+      <path id="signature" pathLength="1" d="M361 1197 C408 1183 446 1115 422 1102 C396 1089 378 1157 416 1193 C456 1234 470 1144 493 1151 C506 1157 483 1221 541 1174 C562 1157 571 1154 579 1168 C593 1194 655 1181 686 1161" stroke="#23588d" stroke-width="9"/>
+      <path d="M830 980 Q885 932 907 926 M852 1020 L925 1003" stroke="#2b537d" stroke-width="6"/>
+    </g>
+  </svg>
+  <p id="application" class="scene-caption">App Grupo Anchieta</p>
+</main>
+<script>
+  const calendar = document.getElementById("calendar");
+  const contract = document.getElementById("contract");
+  const circle = document.getElementById("circle");
+  const signature = document.getElementById("signature");
+  const story = document.getElementById("story");
+  const heading = document.getElementById("heading");
+  const campus = document.getElementById("campusScene");
+  const application = document.getElementById("application");
+  const campusIn = 4.5;
+  const campusOut = campusIn + 55 / 30;
+  const ease = t => 1 - (1 - Math.max(0, Math.min(1, t))) ** 3;
+
+  function revealStroke(element, progress) {
+    element.style.strokeDasharray = "1";
+    element.style.strokeDashoffset = String(1 - progress);
+  }
+
+  function render(time) {
+    const first = time < campusIn;
+    const second = time >= campusOut;
+    const footage = !first && !second;
+    campus.style.visibility = footage ? "visible" : "hidden";
+    story.style.visibility = footage ? "hidden" : "visible";
+    calendar.style.visibility = first ? "visible" : "hidden";
+    contract.style.visibility = second ? "visible" : "hidden";
+    application.style.visibility = second ? "visible" : "hidden";
+    if (first) {
+      heading.textContent = "Pague a\nmensalidade\nde janeiro.";
+      const settle = ease((time + .14) / .9);
+      calendar.setAttribute("transform", `translate(0 ${38 * (1 - settle)}) rotate(${-4 * (1 - settle)} 540 1040)`);
+      revealStroke(circle, ease((time - 1.12) / 1.05));
+    } else if (second) {
+      heading.textContent = "Assine\no contrato.";
+      const settle = ease((time - campusOut + .16) / .92);
+      contract.setAttribute("transform", `translate(0 ${38 * (1 - settle)}) rotate(${4 * (1 - settle)} 540 1040)`);
+      revealStroke(signature, ease((time - campusOut - .61) / 1.55));
+    }
+  }
+
+  window.addEventListener("hf-seek", event => render(event.detail.time));
+  render(0);
+</script>
+</body>
+</html>

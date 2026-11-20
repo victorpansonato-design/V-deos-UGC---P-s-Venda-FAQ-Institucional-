@@ -1,5 +1,7 @@
 # Direção de arte e som dos FAQs
 
+> Para novas peças, leia primeiro a [direção ilustrada](direcao-ilustrada.md). As explorações visuais iniciais ficam como histórico após a reprovação do primeiro ZIP.
+
 O aluno pode assistir no ônibus, no intervalo ou ao abrir o sistema pela primeira vez. São situações de projeto que o CX deve testar com ingressantes reais. Escolher um elemento que ajude a executar a tarefa. Para rematrícula, a mesma ficha recebe duas marcas. Para extensão, duas folhas compartilham um semestre. Para acesso às aulas, o nome “AVA” conduz o olhar ao destino certo. Coube ao rosto dizer por que isso importa.
 
 ## Três tratamentos
@@ -16,7 +18,7 @@ Os azuis de partida informados pelo CX são `#0051A0` e `#133A9E`. Tons de fundo
 
 **Elenco.** Para cada uma das duas pessoas fixas, ensaiar plano médio e fechado com os mesmos doze segundos, luz de janela difusa a ~45° da câmera como ponto de partida e olhar na lente. Preservar textura de pele, espaço acima da cabeça e pausas naturais. Roupa lisa que contraste com o fundo e não dependa de recorte por cor. Comparar 9:16 e 16:9 no tamanho final. Verificar piscada, dentes, encontros de lábios em P/B/M, deriva de cabeça, sombras e gestos repetidos. Quando a pessoa não estiver presente em um plano, usar apenas um take de campus que faça a ligação entre duas ideias, além da vinheta oficial. Uma gravação real de Marketing pode ocupar exatamente o lugar do avatar. Usar o áudio que já animou a boca.
 
-**Referência de movimento.** Na peça de Rory Flynn, cada ingrediente modifica o mesmo objeto. No FAQ, a alteração visível é a consequência de uma instrução. Começar o ensaio com entradas de 6–10 quadros e assentamento sem quique. Na fala longa, deixar a tela quieta enquanto o aluno lê. Aplicar um zoom se o conteúdo mudar de importância. Os trechos de campus em torno de 0,7–1,2 s ligam blocos. Nos masters integrais recebidos, manter a vinheta até o fim. [Referência do autor](https://prompt-motion.com/ror-fly-9950f1) · [Apple HIG, movimento](https://developer.apple.com/design/human-interface-guidelines/motion)
+**Referência de movimento.** Na peça de Rory Flynn, cada ingrediente modifica o mesmo objeto. No FAQ, a alteração visível é a consequência de uma instrução. Começar o ensaio com entradas de 6–10 quadros e assentamento sem quique. Na fala longa, deixar a tela quieta enquanto o aluno lê. Aplicar um zoom se o conteúdo mudar de importância. A passagem de campus parte de 1,83 s em plano único. Ajuste entre 1,5 e 2,2 s conforme a fala e o movimento. Nos masters integrais recebidos, manter a vinheta até o fim. [Referência do autor](https://prompt-motion.com/ror-fly-9950f1) · [Apple HIG, movimento](https://developer.apple.com/design/human-interface-guidelines/motion)
 
 ## Como produzir som com identidade
 

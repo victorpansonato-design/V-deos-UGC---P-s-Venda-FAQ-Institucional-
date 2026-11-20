@@ -20,7 +20,7 @@ Esse calendário organiza o trabalho. Aprovações de terceiros e acesso às con
 | Caminho local sugerido | O que vai ali | Para qual decisão |
 | --- | --- | --- |
 | `inbox/vinheta-vertical.mp4` e `inbox/vinheta-horizontal.mp4` | Encerramentos oficiais com a faixa original | 3,50 s no vertical e aproximadamente 4,08 s no horizontal. Reservar duração desde o roteiro. |
-| `inbox/campus.mp4` | Original do Marketing de melhor resolução disponível | Plano de passagem de 0,7–1,2 s, entre duas frases. |
+| `inbox/campus.mp4` | Original do Marketing de melhor resolução disponível | Plano único de 1,83 s como ponto de partida. Ajustar à pausa e ao movimento. |
 | `inbox/apresentador.mp4` | Bruto sem gráficos, legendas ou música, com boca visível | Edição real direta ou take do HeyGen/Higgsfield. Para a primeira comparação, basta a frase comum. |
 | `inbox/interpretacao.mp3` | A frase aprovada gravada limpa; idealmente guardar também o WAV original | Áudio definitivo para animar o rosto; para câmera real, priorizar a voz captada em sincronia. |
 | `acervo/vozes/` | Referências autorizadas dos dois perfis e registro privado de escopo | Triagem local da naturalidade. O consentimento de um titular não cobre o outro. |
